@@ -2,7 +2,10 @@
 	"name": "webpack4.x-vue2.x-typescript",
 	"version": "1.0.0",
 	"description": "基于webpack4.x vue2.x typescript的前端工程化",
-	"scripts": {},
+	"scripts": {
+		"serve": "webpack-cli serve --config webpack/index.js",
+		"build": "export NODE_ENV=production && webpack-cli build --config webpack/index.js"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Lee970660954/webpack4.x-vue2.x-typescript.git"
