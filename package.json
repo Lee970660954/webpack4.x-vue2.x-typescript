@@ -1,0 +1,19 @@
+{
+  "name": "webpack4.x-vue2.x-typescript",
+  "version": "1.0.0",
+  "description": "基于webpack4.x vue2.x typescript的前端工程化",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lee970660954/webpack4.x-vue2.x-typescript.git"
+  },
+  "author": "Rookie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lee970660954/webpack4.x-vue2.x-typescript/issues"
+  },
+  "homepage": "https://github.com/Lee970660954/webpack4.x-vue2.x-typescript#readme"
+}
