@@ -15,6 +15,15 @@ const routes: Array<RouteConfig> = [
             keepAlive: true
         },
         component: () => import(/* webpackChunkName: "indexPage" */ "@/views/index/index.vue")
+    },
+    {
+        path: "/detail.html",
+        name: "DetailPage",
+        meta: {
+            title: "详情页",
+            keepAlive: true
+        },
+        component: () => import(/** webpackChunkName: "detailPage" */ "@/views/detail/index.vue")
     }
 ];
 
