@@ -12,6 +12,18 @@ import Header from "@/components/common/header.vue"
 @Component({
     components: {
         Header
+    },
+    beforeRouteEnter (to: any, from: any, next) {
+        console.log("IndexPage beforeRouteEnter", this);
+        next();
+    },
+    beforeRouteUpdate (to: any, from: any, next) {
+        console.log("IndexPage beforeRouteUpdate", this);
+        next();
+    },
+    beforeRouteLeave (to: any, from: any, next) {
+        console.log("IndexPage beforeRouteLeave", this);
+        next();
     }
 })
 export default class IndexPage extends Vue{
@@ -19,7 +31,7 @@ export default class IndexPage extends Vue{
         this.$router.push({ name: "DetailPage", query: { id: "1" } })
     }
     async created () {
-        console.log("I am created IndexPage")
+        console.log("I am created IndexPage");
     }
     async mounted () {}
     async destroyed () {}
